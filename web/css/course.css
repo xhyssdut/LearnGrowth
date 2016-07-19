@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0 0;
+    font-family: "等线 Light";
+}
+a{
+    text-decoration: none;
+}
+.navi {
+    width: 1000px;
+    margin: 0 auto;
+    height: 50px;
+    background-color: #d9ece1;
+    line-height: 50px;
+
+}
+
+.navi-button {
+    background-color: #d9ece1;
+    margin: 0 auto;
+    height: inherit;
+    padding: 0 20px;
+    display: inline-block;
+    font-size: 20px;
+    color: #333745;
+    text-decoration: none;
+    transition-duration: .8s;
+}
+.user-button{
+    background-color: #d9ece1;
+    margin: 0 auto;
+    height: inherit;
+    padding: 0 20px;
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+    color: #333745;
+    transition-duration: .8s;
+}
+.video{
+    margin:20px auto;
+    margin-top: 0;
+    width: 1000px;
+    height: 600px;
+
+}
+.video video{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 1000px;
+    height: auto;
+    text-align: center;
+    margin: 10px auto;
+}
+.header span{
+    font-size: 20px;
+
+}
+.video-list{
+    width: 1000px;
+    height: auto;
+    margin: 10px auto;
+}
+.video-list ul{
+    list-style-type: none;
+    padding-left: 0;
+    padding-left: 20px;
+}
+.on{
+    margin-bottom: 15px ;
+    border-bottom: 1px solid gray;
+}
+.on a{
+    color: #333333;
+    font-size: 20px;
+}
+.on p{
+    font-size: 15px;
+}
+.video-list #video-navi{
+    font-size: 25px;
+    margin-left: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid gray;
+}
+.learn-state {
+    position: relative;
+    top: -1px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-color: #8edda4;
+    vertical-align: middle;
+}
+
+.learn-state.learned {
+    background-color: #C58486;
+}
+
+.learn-state.bought {
+    background-color: #8edda4;
+}
+
+.learn-state.none {
+    background-color: gray;
+}
+.buy{
+    position: fixed;
+    z-index: 200;
+    width: 26%;
+    height: 26%;
+    top: 30%;
+    margin-left: 37%;
+    background-color: #eee;
+    border-radius: 10px;
+    clear: both;
+    padding-bottom: 40px;
+    font-size: 18px;
+}
+.buy span{
+    display: block;
+    margin-bottom: 15px;
+
+}
+.buy .buy-button{
+    display: inline-block;
+    background-color: #35b558;
+    width: 20%;
+    height:10%;
+    margin: 0 auto;
+    border-radius: 1px;
+}
+.buy .buy-button:hover{
+    background-color: #333333;
+    color: white;
+    width: 20%;
+    height:10%;
+    margin: 0 auto;
+    border-radius: 1px;
+}
+.alt_hid{
+    display: none;
+}
+#hid-back {
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin-left: 0;
+    position: fixed;
+    z-index: 150;
+    background-color: gray;
+}
